@@ -1,6 +1,6 @@
 num1 = int(input("Enter the first number:"))
 num2 = int(input("Enter the second number:"))
-operation = input("Choose the operation (+, -, *, /):.")
+operation =input("Choose the operation (+, -, *, /):.")
 #for addition (+), subtract (-), multiply (*), and divide (/).
 if operation == "+":
     print("The result is",num1+num2,".")
