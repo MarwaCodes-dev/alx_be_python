@@ -16,4 +16,4 @@ if temp_kind == "F":
 elif temp_kind == "C":
     convert_to_fahrenheit(temp)
 else:
-    print("invalid operation")                 
+    print("Invalid temperature. Please enter a numeric value.")                 
