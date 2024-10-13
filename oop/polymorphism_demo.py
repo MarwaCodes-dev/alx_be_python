@@ -1,4 +1,4 @@
-
+import math
 class Shape:
     def area(self):
         raise NotImplementedError("This method should be overridden by derived classes")
@@ -12,4 +12,4 @@ class Circle(Shape):
     def __init__(self,radius):
         self.radius = radius     
     def area(self):
-        return f"The area of the Circle is: {(3.14)*(self.radius)**2}"       
+        return f"The area of the Circle is: {(math.pi)*(self.radius)**2}"       
